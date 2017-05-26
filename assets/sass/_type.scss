@@ -1,0 +1,89 @@
+body {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.45;
+}
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 1em;
+}
+a {
+  font-size: 0.5em;
+  &:hover {
+    color: #FAB81E !important;
+  }
+  transition: color 0.25s ease;
+}
+nav {
+  a {
+    color: #ffffff !important;
+  }
+  .nav {
+    li {
+      a {
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+#cover {
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    line-height: 60vh;
+    font-weight: 700;
+    text-transform: uppercase;
+    span {
+      //color: #1a8bf0;
+    }
+  }
+  .buttons {
+    a {
+      padding: 1%;
+      font-size: 1em;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+}
+#intro {
+  h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    span {
+      color: #FAB81E;
+    }
+    .fa-twitter {
+      color: #71c9f7;
+    }
+    .fa-btc {
+      color: #FAB81E;
+    }
+  }
+  h2 {
+    color: #999;
+  }
+}
+#about {
+  h1 {
+    font-weight: 600;
+  }
+  p {
+    color: #999;
+  }
+  a {
+    color: #FAB81E;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,29 @@
+#cover {
+  height: 60vh;
+  background: url('../img/chainspeak.svg');
+  background-attachment: fixed;
+  background-color: #FAB81E;
+  .buttons {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    a {
+      border: 5px solid #373a3c;
+      background-color: #373a3c;
+      margin: 0 0.5%;
+    }
+  }
+}
+#intro {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  h1 {
+    padding: 0 15%;
+    font-weight: 600;
+  }
+}
+#about {
+  padding: 0 5%;
+}
